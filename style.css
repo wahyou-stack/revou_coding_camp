@@ -1,0 +1,218 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+}
+header{
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav{
+    background-color: #34495e;
+    padding: 10px;
+    text-align: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    padding: 20px;
+}
+article{
+    flex: 3;
+    padding: 15px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0.8);
+}
+aside{
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+    background: #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0.8);
+    text-align: center;
+}
+aside img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto;
+    border: 4px solid white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    margin-bottom: 10px;
+}
+aside h3{
+    margin: 10px 0;
+}
+details{
+    margin-top: 10px;
+    padding: 10px;
+    background: #ecf0f1;
+    border-radius: 5px;
+}
+footer{
+    background: #2c3e50;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+}
+/* list */
+ul, ol{
+    padding-left: 20px;
+    margin-top: 10px;
+}
+ul li, ol li{
+    background: #f8f9fb;
+    margin: 6px 0;
+    padding: 8px 12px;
+    border-left: 4px solid #2c3e50;
+    border-radius: 4px;
+}
+ul li:hover, ol li:hover{
+    background-color: #eef1f5;
+}
+/* Tabel */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: whitesmoke;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.8);
+}
+/* Tabel Header */
+table th{
+    background: #2c3e50;
+    color: whitesmoke;
+    padding: 12px;
+    text-align: left;
+}
+/* Tabel Dalam (isi tabel) */
+table td{
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+table tr:nth-child(even){
+    background: #fafafa;
+}
+table tr:hover{
+    background: #f5f7fa;
+}
+table th:first-child, 
+table td:first-child{
+    width: 60px;
+    text-align: center;
+}
+/* .skill-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.skill-list li{
+    background: #f5f7fa;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 6px;
+    border-left: 4px solid #2c3e50;
+    transition: 0.2s;
+}
+.skill-list li:hover{
+    background: #eef1f5;
+} */
+.experience-list{
+    list-style: none;
+    padding: 0;
+}
+.experience-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.experience-list li{
+    background: #f5f7fa;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 6px;
+    border-left: 4px solid #2c3e50;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.experience-list li:hover{
+    background: #eef1f5;
+}
+
+/* HUBUNGI SAYA "kelas Contact Session" */
+.contact-session{
+    margin-top: 20px;
+}
+.contact-btn{
+    display: flex;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+/* Warna Tombol (email, github dan whatsapp) */
+.email-btn{
+    background: #3498db;
+    color: whitesmoke;
+}
+.github-btn{
+    background: #333;
+    color: whitesmoke;
+}
+.whatsapp-btn{
+    background: #25D366;
+    color: whitesmoke;
+}
+/* Hover */
+.contact-btn:hover{
+    transform: scale(1.05);
+    opacity: 0.7;
+}
+/* Profile Glow */
+.profile-glow{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    box-shadow: 
+        0 0 10px rgba(44,62,80,0.4),
+        0 0 25px rgba(44,62,80,0.4),
+        0 0 40px rgba(44,62,80,0.3);
+    transition: 0.4s ease;
+}
+.profile-glow{
+    transform: scale(1.05);
+    box-shadow: 
+        0 0 20px rgba(44,62,80,0.6),
+        0 0 40px rgba(44,62,80,0.6),
+        0 0 60px rgba(44,62,80,0.5);
+    ;
+}
+/* logo email.github.whatsapp */
+/* .btn-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    object-fit: contain;
+} */
